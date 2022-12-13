@@ -106,6 +106,9 @@ def choose_a_film():
     if selected_movie_id not in movie_ids:
       print("This film ID is invalid. Choose a film again")
       choose_a_film()
+    
+    else:
+      add_a_rating()
 
 # This function let the reviewer to rate the film
 def add_a_rating():
